@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Videos for Download</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--Semantic UI libraries--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css"/>
+    <script src="popup.js"></script>
+    <style>
+      img {
+        opacity: 0.5;        
+        width: 100%;
+      }
+      body{
+        height: 50%;
+      }
+      </style>
+  </head>
+  <body>
+    <div id="header">
+    <h2 class="ui header"> Video Downloader </h2>
+  </div>    
+    
+    <table id="links"></table>
+
+    <div class="background">
+      <img src="icon.png">
+    </div>
+
+    <div id="buttonDiv1">
+      <a class="buttonLink" id="availableLinks"><button class="ui black button" id="checkPage">Available Links</button></a>
+      <a class="buttonLink" id="downloadAll"><button class="ui black button">Download All</button></a>
+      <a class="buttonLink" id="historyButton" href="history.html"><button class="ui black button" id="history">History</button></a>
+      <a class="buttonLink" id="helpButton" href="help.html"><button class="ui black button">Help</button></a>
+    </div>
+
+  </body>
+</html>

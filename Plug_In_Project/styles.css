@@ -1,0 +1,76 @@
+
+body, html {
+    height: 50%;
+}
+#header {
+    margin-top: 20px;
+}
+h1, table, div{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    float: left;
+}
+img {
+    float: left;
+}
+
+td {
+    border-bottom: 0.5px dashed;
+    padding: 5px;
+}
+
+.download {
+    cursor: pointer;
+}
+
+.download:hover {
+    opacity: 0.5;
+}
+
+#buttonDiv1{
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 10px;
+    
+}
+
+.buttonLink{
+    width:45%;
+}
+
+.button{
+    width:100%;
+}
+
+#availableLinks{
+    margin-right: 5px;
+}
+
+#historyButton {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#helpButton {
+    margin-top: 5px;
+}
+
+.back{
+    text-align: center;
+    display: inline-block;
+    padding:10px;
+}
+
+p{
+    text-align: left;
+    padding:10px;
+}
